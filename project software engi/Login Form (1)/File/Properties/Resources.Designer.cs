@@ -83,6 +83,16 @@ namespace Login_Form.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap avatar7 {
+            get {
+                object obj = ResourceManager.GetObject("avatar7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img_254994 {
             get {
                 object obj = ResourceManager.GetObject("img_254994", resourceCulture);

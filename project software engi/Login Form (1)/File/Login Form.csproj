@@ -63,6 +63,12 @@
     <Compile Include="menu_user.Designer.cs">
       <DependentUpon>menu_user.cs</DependentUpon>
     </Compile>
+    <Compile Include="profile12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="profile12.Designer.cs">
+      <DependentUpon>profile12.cs</DependentUpon>
+    </Compile>
     <Compile Include="signup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="menu_user.resx">
       <DependentUpon>menu_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profile12.resx">
+      <DependentUpon>profile12.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="signup.resx">
       <DependentUpon>signup.cs</DependentUpon>
@@ -123,6 +132,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\83324-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar7.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

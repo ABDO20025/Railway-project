@@ -52,20 +52,18 @@ namespace Login_Form
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(-31, 230);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(-23, 187);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1604, 336);
+            this.panel1.Size = new System.Drawing.Size(1203, 273);
             this.panel1.TabIndex = 0;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(543, 282);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(407, 229);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(317, 39);
+            this.label3.Size = new System.Drawing.Size(254, 31);
             this.label3.TabIndex = 5;
             this.label3.Text = "Search For A Ticket";
             // 
@@ -73,10 +71,9 @@ namespace Login_Form
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(1096, 282);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(822, 229);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 39);
+            this.label2.Size = new System.Drawing.Size(88, 31);
             this.label2.TabIndex = 4;
             this.label2.Text = "profile";
             // 
@@ -84,10 +81,9 @@ namespace Login_Form
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(108, 282);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(81, 229);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(216, 39);
+            this.label1.Size = new System.Drawing.Size(174, 31);
             this.label1.TabIndex = 3;
             this.label1.Text = "Reservtiones";
             // 
@@ -95,10 +91,9 @@ namespace Login_Form
             // 
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox3.Image = global::Login_Form.Properties.Resources.appointment_icon_png_26;
-            this.pictureBox3.Location = new System.Drawing.Point(77, 33);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(58, 27);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(311, 231);
+            this.pictureBox3.Size = new System.Drawing.Size(234, 188);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -107,10 +102,9 @@ namespace Login_Form
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox2.Image = global::Login_Form.Properties.Resources._83324_200;
-            this.pictureBox2.Location = new System.Drawing.Point(565, 33);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(424, 27);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(293, 231);
+            this.pictureBox2.Size = new System.Drawing.Size(220, 188);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -119,10 +113,9 @@ namespace Login_Form
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = global::Login_Form.Properties.Resources.img_254994;
-            this.pictureBox1.Location = new System.Drawing.Point(1013, 33);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(760, 27);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(278, 231);
+            this.pictureBox1.Size = new System.Drawing.Size(209, 188);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -131,22 +124,20 @@ namespace Login_Form
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(589, 92);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(421, 77);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(137, 54);
+            this.label4.Size = new System.Drawing.Size(112, 45);
             this.label4.TabIndex = 6;
             this.label4.Text = "HOME";
             // 
             // Home12
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Plum;
-            this.ClientSize = new System.Drawing.Size(1307, 747);
+            this.ClientSize = new System.Drawing.Size(980, 607);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Home12";
             this.Text = "Home12";
             this.Load += new System.EventHandler(this.Home12_Load);
