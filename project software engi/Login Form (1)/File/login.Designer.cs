@@ -88,7 +88,7 @@
             // 
             this.usernamelabel.AutoSize = true;
             this.usernamelabel.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usernamelabel.Location = new System.Drawing.Point(696, 179);
+            this.usernamelabel.Location = new System.Drawing.Point(697, 179);
             this.usernamelabel.Name = "usernamelabel";
             this.usernamelabel.Size = new System.Drawing.Size(63, 21);
             this.usernamelabel.TabIndex = 2;

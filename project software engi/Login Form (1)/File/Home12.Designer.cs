@@ -134,9 +134,9 @@ namespace Login_Form
             this.label4.Location = new System.Drawing.Point(589, 92);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(129, 54);
+            this.label4.Size = new System.Drawing.Size(137, 54);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Home";
+            this.label4.Text = "HOME";
             // 
             // Home12
             // 
