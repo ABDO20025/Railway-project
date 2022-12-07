@@ -27,7 +27,7 @@ namespace Login_Form
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            int x;
         }
 
         private void label2_Click(object sender, EventArgs e)
