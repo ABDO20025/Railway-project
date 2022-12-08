@@ -14,3 +14,4 @@ C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software en
 C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\RailwayReservationSystem.csproj.CoreCompileInputs.cache
 C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login.exe
 C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login.pdb
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login_Form.veiwticket.resources

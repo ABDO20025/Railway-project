@@ -375,9 +375,10 @@ namespace Login_Form
             this.Controls.Add(this.pintxb);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.signup);
+            this.MaximizeBox = false;
             this.Name = "register";
             this.Text = "register";
-            this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.TransparencyKey = System.Drawing.Color.DarkMagenta;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.register_FormClosed);
             this.Load += new System.EventHandler(this.sig_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
