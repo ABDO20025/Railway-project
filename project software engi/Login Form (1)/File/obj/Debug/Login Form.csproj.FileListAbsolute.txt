@@ -46,3 +46,19 @@ C:\project software engi\Login Form (1)\File\obj\Debug\Login_Form.login.resource
 C:\project software engi\Login Form (1)\File\obj\Debug\Login_Form.Properties.Resources.resources
 C:\project software engi\Login Form (1)\File\obj\Debug\Login Form.csproj.GenerateResource.cache
 C:\project software engi\Login Form (1)\File\obj\Debug\Login Form.csproj.CoreCompileInputs.cache
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\bin\Debug\Login.exe.config
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\bin\Debug\Login.exe
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\bin\Debug\Login.pdb
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login Form.csproj.AssemblyReference.cache
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login Form.csproj.SuggestedBindingRedirects.cache
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login_Form.admin.resources
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login_Form.Home12.resources
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login_Form.menu_user.resources
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login_Form.profile.resources
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login_Form.register.resources
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login_Form.login.resources
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login_Form.Properties.Resources.resources
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login Form.csproj.GenerateResource.cache
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login Form.csproj.CoreCompileInputs.cache
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login.exe
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login.pdb

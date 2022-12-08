@@ -16,7 +16,7 @@ namespace Login_Form
 {
     public partial class login : Form
     {
-        public string conString = "Data Source=ABDALLA;Initial Catalog=railwayres;Integrated Security=True";
+        public string conString = "Data Source=ABDALLA;Initial Catalog=railwayDB;Integrated Security=True";
         private SqlCommand cmd;
         
 
@@ -48,30 +48,30 @@ namespace Login_Form
         private void button1_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(conString);
-            cmd = new SqlCommand("select * from passenger where email ='" + mail_txb.Text + "' and P_password='" + textBoxpass.Text + "'",con);
+            cmd = new SqlCommand("select * from Users where user_id ='" + mail_txb.Text + "' and u_pass='" + textBoxpass.Text + "'",con);
             con.Open();
             SqlDataReader dr1 =cmd.ExecuteReader();
 
 
-            
-
-           
 
 
 
-            if (dr1.Read())
+
+            if (mail_txb.Text == "admin" && textBoxpass.Text == "admin")
+            {
+                admin admpage = new admin();
+                admpage.Show();
+                this.Hide();
+            }
+
+            else if (dr1.Read())
             {
                     menu_user mu = new menu_user();
                     mu.Show();
                     this.Close();
 
             }
-            else if (mail_txb.Text == "admin" && textBoxpass.Text == "admin")
-            {
-                admin admpage = new admin();
-                admpage.Show();
-                this.Hide();
-            }
+            
             else
             {
                 MessageBox.Show("incorrect data");
@@ -81,11 +81,6 @@ namespace Login_Form
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
         {
 
         }
@@ -110,6 +105,8 @@ namespace Login_Form
             register sp = new register();
             sp.Show();
             this.Close();
+
         }
+       
     }
 }

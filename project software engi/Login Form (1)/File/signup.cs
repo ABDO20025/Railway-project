@@ -16,13 +16,13 @@ namespace Login_Form
 {
     public partial class register : Form
     {
-      
-        
+
+       
         public register()
         {
             InitializeComponent();
         }
-        public string conString = "Data Source=ABDALLA;Initial Catalog=railwayres;Integrated Security=True";
+        public string conString = "Data Source=ABDALLA;Initial Catalog=railwayDB;Integrated Security=True";
         private SqlCommand cmd;
 
         private void button1_Click(object sender, EventArgs e)
@@ -30,14 +30,14 @@ namespace Login_Form
             SqlConnection con = new SqlConnection(conString);
             
 
-            if (fname.Text!=""&&lname.Text!=""&&gender.Text!=""&& dateTimePickerdob.Text!=""&& address.Text != "" && phone.Text != "" && password.Text != "" && SSn.Text != "" &&password.Text==cpass.Text&&mail.Text!="")
+            if (nametxb.Text!=""&&user_idtxb.Text!=""&&gendercmb.Text!=""&& dateTimePickerdob.Text!=""&& pintxb.Text != "" && mobiletxb.Text != "" && u_passtxb.Text != "" && citytxb.Text != "" &&u_passtxb.Text==cpasstxb.Text&&statetxb.Text!="")
             {
 
-                
 
 
 
-                cmd = new SqlCommand("insert into passenger(P_Fname, lastname, gender, P_address, mobile, email, SSN, date_of_Birth, P_password) values('"+fname.Text+"', '"+lname.Text+"', '"+gender.Text+"', '"+address.Text+"',  '"+phone.Text+"', '"+mail.Text+"', '"+SSn.Text+"', '"+ this.dateTimePickerdob.Text+"', '"+password.Text+"')", con);
+
+                cmd = new SqlCommand("insert into Users values('" + user_idtxb.Text + "', '" +nametxb.Text + "', '" + gendercmb.Text + "', '" + this.dateTimePickerdob.Value.Year.ToString() + "',  '" + mobiletxb.Text + "', '" + statetxb.Text + "', '" + citytxb.Text + "', '" + pintxb.Text + "', '" + u_passtxb.Text + "')", con); 
                 con.Open();
                 cmd.ExecuteNonQuery();
                 con.Close();
@@ -99,12 +99,14 @@ namespace Login_Form
 
         private void register_FormClosed(object sender, FormClosedEventArgs e)
         {
+            login l = new login();
+            l.Show();
             
-        }
-
-        private void dateTimePickerdob_ValueChanged(object sender, EventArgs e)
-        {
 
         }
+
+       
+
+        
     }
 }

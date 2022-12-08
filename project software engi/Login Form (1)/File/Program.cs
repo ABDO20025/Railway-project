@@ -16,9 +16,12 @@ namespace Login_Form
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            login log =new login();
+            login log = new login();
             log.Show();
             Application.Run();
         }
+            
+
+     
     }
 }

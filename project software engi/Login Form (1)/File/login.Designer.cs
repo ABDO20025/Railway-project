@@ -52,7 +52,7 @@
             btnlogin.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             btnlogin.ForeColor = System.Drawing.SystemColors.ButtonFace;
             btnlogin.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            btnlogin.Location = new System.Drawing.Point(753, 354);
+            btnlogin.Location = new System.Drawing.Point(695, 364);
             btnlogin.Margin = new System.Windows.Forms.Padding(11, 10, 11, 10);
             btnlogin.Name = "btnlogin";
             btnlogin.Padding = new System.Windows.Forms.Padding(11, 10, 11, 10);
@@ -77,7 +77,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Forte", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(793, 67);
+            this.label1.Location = new System.Drawing.Point(735, 77);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 36);
             this.label1.TabIndex = 1;
@@ -88,17 +88,17 @@
             // 
             this.usernamelabel.AutoSize = true;
             this.usernamelabel.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usernamelabel.Location = new System.Drawing.Point(697, 179);
+            this.usernamelabel.Location = new System.Drawing.Point(639, 189);
             this.usernamelabel.Name = "usernamelabel";
-            this.usernamelabel.Size = new System.Drawing.Size(63, 21);
+            this.usernamelabel.Size = new System.Drawing.Size(103, 21);
             this.usernamelabel.TabIndex = 2;
-            this.usernamelabel.Text = "E-mail";
+            this.usernamelabel.Text = "User Name";
             this.usernamelabel.Click += new System.EventHandler(this.label2_Click);
             // 
             // mail_txb
             // 
             this.mail_txb.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.mail_txb.Location = new System.Drawing.Point(701, 220);
+            this.mail_txb.Location = new System.Drawing.Point(643, 230);
             this.mail_txb.Margin = new System.Windows.Forms.Padding(114, 100, 114, 100);
             this.mail_txb.Name = "mail_txb";
             this.mail_txb.Size = new System.Drawing.Size(287, 22);
@@ -108,7 +108,7 @@
             // textBoxpass
             // 
             this.textBoxpass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxpass.Location = new System.Drawing.Point(701, 300);
+            this.textBoxpass.Location = new System.Drawing.Point(643, 310);
             this.textBoxpass.Margin = new System.Windows.Forms.Padding(114, 100, 114, 100);
             this.textBoxpass.Name = "textBoxpass";
             this.textBoxpass.PasswordChar = '*';
@@ -121,7 +121,7 @@
             // 
             this.passlabel.AutoSize = true;
             this.passlabel.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passlabel.Location = new System.Drawing.Point(696, 262);
+            this.passlabel.Location = new System.Drawing.Point(638, 272);
             this.passlabel.Name = "passlabel";
             this.passlabel.Size = new System.Drawing.Size(93, 21);
             this.passlabel.TabIndex = 4;
@@ -130,7 +130,7 @@
             // 
             // register
             // 
-            this.register.Location = new System.Drawing.Point(807, 456);
+            this.register.Location = new System.Drawing.Point(749, 466);
             this.register.Name = "register";
             this.register.Size = new System.Drawing.Size(75, 23);
             this.register.TabIndex = 7;
@@ -144,7 +144,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.Plum;
-            this.ClientSize = new System.Drawing.Size(1118, 599);
+            this.ClientSize = new System.Drawing.Size(978, 599);
             this.Controls.Add(this.register);
             this.Controls.Add(btnlogin);
             this.Controls.Add(this.textBoxpass);
