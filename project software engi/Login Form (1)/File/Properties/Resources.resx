@@ -118,16 +118,88 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="08dbb198-2bcf-4c4a-a1fe-6dc24f50de42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\08dbb198-2bcf-4c4a-a1fe-6dc24f50de42.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2bf04523-6f98-4c49-846a-c182a345314b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2bf04523-6f98-4c49-846a-c182a345314b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2022-12-06 at 6.03.19 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2022-12-06 at 6.03.19 PM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="671be87c-d1a1-4f03-9e6e-065a80f75746" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\671be87c-d1a1-4f03-9e6e-065a80f75746.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bf809ebb-a837-49cc-bda5-8985d128a2ae1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bf809ebb-a837-49cc-bda5-8985d128a2ae1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff0020f6-b23d-4cc4-8e63-fadedc6d1a04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff0020f6-b23d-4cc4-8e63-fadedc6d1a04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a525af68-d2d1-435b-ab54-7a6217d8b675" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a525af68-d2d1-435b-ab54-7a6217d8b675.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0dbb0d77-44d5-4b63-a880-aff6d3fc8b68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0dbb0d77-44d5-4b63-a880-aff6d3fc8b68.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ea9d5e8c-9fd6-423f-af51-2bb240f0b074" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ea9d5e8c-9fd6-423f-af51-2bb240f0b074.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="83324-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\83324-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="appointment-icon-png-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\appointment-icon-png-26.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bf809ebb-a837-49cc-bda5-8985d128a2ae" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bf809ebb-a837-49cc-bda5-8985d128a2ae.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="de2918ce-a734-4d63-8dfb-31dff24ec377" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\de2918ce-a734-4d63-8dfb-31dff24ec377.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b662696f-290b-466b-9cd4-94ae2ba3c1b2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b662696f-290b-466b-9cd4-94ae2ba3c1b2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b271afa2-5d36-4b23-a66d-a01964723c8f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b271afa2-5d36-4b23-a66d-a01964723c8f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2022-12-06 at 6.031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2022-12-06 at 6.03.19 PM1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b2435e12-b86e-4904-9c4f-95b8432ab898" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b2435e12-b86e-4904-9c4f-95b8432ab898.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="img_254994" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img_254994.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="appointment-icon-png-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appointment-icon-png-26.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bb94f128-30f8-4d5c-ad11-d78cb0dea60b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bb94f128-30f8-4d5c-ad11-d78cb0dea60b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e0bdff10-41dc-4b68-aeb5-30f118a30e43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e0bdff10-41dc-4b68-aeb5-30f118a30e43.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="485727d2-528e-4f75-a0c4-ca39fda86f81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\485727d2-528e-4f75-a0c4-ca39fda86f81.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c668223c-ef64-4166-b5d1-3020d48c5746" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c668223c-ef64-4166-b5d1-3020d48c5746.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="avatar7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\avatar7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="189f5a3c-d465-4124-b8aa-cab1203fba55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\189f5a3c-d465-4124-b8aa-cab1203fba55.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="505b8896-d1fa-4b94-9ca6-9d889d8e341c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\505b8896-d1fa-4b94-9ca6-9d889d8e341c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="671be87c-d1a1-4f03-9e6e-065a80f757461" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\671be87c-d1a1-4f03-9e6e-065a80f757461.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aae25ff9-f1c6-4234-972b-63df87a02283" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aae25ff9-f1c6-4234-972b-63df87a02283.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a525af68-d2d1-435b-ab54-7a6217d8b6751" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a525af68-d2d1-435b-ab54-7a6217d8b6751.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
