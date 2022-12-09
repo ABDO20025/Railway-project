@@ -52,11 +52,6 @@ namespace Login_Form
             con.Open();
             SqlDataReader dr1 =cmd.ExecuteReader();
 
-
-
-
-
-
             if (mail_txb.Text == "admin" && textBoxpass.Text == "admin")
             {
                 admin admpage = new admin();
@@ -69,7 +64,6 @@ namespace Login_Form
                     menu_user mu = new menu_user();
                     mu.Show();
                     this.Close();
-
             }
             
             else

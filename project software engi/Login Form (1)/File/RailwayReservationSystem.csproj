@@ -58,6 +58,18 @@
     <Compile Include="admin.Designer.cs">
       <DependentUpon>admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="admin_passenger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_passenger.Designer.cs">
+      <DependentUpon>admin_passenger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin_users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_users.Designer.cs">
+      <DependentUpon>admin_users.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home12.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +92,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>railwayDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="reservations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reservations.Designer.cs">
+      <DependentUpon>reservations.cs</DependentUpon>
     </Compile>
     <Compile Include="signup.cs">
       <SubType>Form</SubType>
@@ -104,6 +122,9 @@
     <EmbeddedResource Include="admin.resx">
       <DependentUpon>admin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="admin_users.resx">
+      <DependentUpon>admin_users.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home12.resx">
       <DependentUpon>Home12.cs</DependentUpon>
     </EmbeddedResource>
@@ -112,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="profile12.resx">
       <DependentUpon>profile12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reservations.resx">
+      <DependentUpon>reservations.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="signup.resx">
       <DependentUpon>signup.cs</DependentUpon>

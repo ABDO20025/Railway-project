@@ -15,3 +15,5 @@ C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software en
 C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\bin\Debug\Railway Reservation System.pdb
 C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Railway Reservation System.exe
 C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Railway Reservation System.pdb
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login_Form.admin_users.resources
+C:\Users\abdal\OneDrive\Documents\New folder\Railway-project\project software engi\Login Form (1)\File\obj\Debug\Login_Form.reservations.resources
