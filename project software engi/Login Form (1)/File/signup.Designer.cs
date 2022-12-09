@@ -31,6 +31,7 @@ namespace Login_Form
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(register));
             this.signup = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -59,7 +60,14 @@ namespace Login_Form
             this.label14 = new System.Windows.Forms.Label();
             this.dateTimePickerdob = new System.Windows.Forms.DateTimePicker();
             this.gendercmb = new System.Windows.Forms.ComboBox();
+            this.railwayDBDataSet = new Login_Form.railwayDBDataSet();
+            this.railwayDBDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.usersBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.usersTableAdapter = new Login_Form.railwayDBDataSetTableAdapters.UsersTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.railwayDBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.railwayDBDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // signup
@@ -333,14 +341,35 @@ namespace Login_Form
             // 
             // gendercmb
             // 
+            this.gendercmb.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.usersBindingSource, "age", true));
             this.gendercmb.FormattingEnabled = true;
             this.gendercmb.Items.AddRange(new object[] {
-            "Male",
-            "Female"});
+            "M",
+            "F"});
             this.gendercmb.Location = new System.Drawing.Point(518, 265);
             this.gendercmb.Name = "gendercmb";
             this.gendercmb.Size = new System.Drawing.Size(211, 24);
             this.gendercmb.TabIndex = 35;
+            this.gendercmb.SelectedIndexChanged += new System.EventHandler(this.gendercmb_SelectedIndexChanged);
+            // 
+            // railwayDBDataSet
+            // 
+            this.railwayDBDataSet.DataSetName = "railwayDBDataSet";
+            this.railwayDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // railwayDBDataSetBindingSource
+            // 
+            this.railwayDBDataSetBindingSource.DataSource = this.railwayDBDataSet;
+            this.railwayDBDataSetBindingSource.Position = 0;
+            // 
+            // usersBindingSource
+            // 
+            this.usersBindingSource.DataMember = "Users";
+            this.usersBindingSource.DataSource = this.railwayDBDataSet;
+            // 
+            // usersTableAdapter
+            // 
+            this.usersTableAdapter.ClearBeforeFill = true;
             // 
             // register
             // 
@@ -375,13 +404,18 @@ namespace Login_Form
             this.Controls.Add(this.pintxb);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.signup);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "register";
-            this.Text = "register";
-            this.TransparencyKey = System.Drawing.Color.DarkMagenta;
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.register_FormClosed);
-            this.Load += new System.EventHandler(this.sig_Load);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Register";
+            this.TransparencyKey = System.Drawing.Color.Indigo;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.register_FormClosing);
+            this.Load += new System.EventHandler(this.register_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.railwayDBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.railwayDBDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -415,5 +449,9 @@ namespace Login_Form
         private System.Windows.Forms.Label label14;
         public System.Windows.Forms.DateTimePicker dateTimePickerdob;
         private ComboBox gendercmb;
+        private BindingSource railwayDBDataSetBindingSource;
+        private railwayDBDataSet railwayDBDataSet;
+        private BindingSource usersBindingSource;
+        private railwayDBDataSetTableAdapters.UsersTableAdapter usersTableAdapter;
     }
 }

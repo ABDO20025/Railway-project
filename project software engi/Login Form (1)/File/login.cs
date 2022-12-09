@@ -107,6 +107,16 @@ namespace Login_Form
             this.Close();
 
         }
-       
+
+        private void login_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
+        }
+
+        private void login_FormClosing(object sender, FormClosingEventArgs e)
+        {
+           
+
+        }
     }
 }

@@ -99,14 +99,26 @@ namespace Login_Form
 
         private void register_FormClosed(object sender, FormClosedEventArgs e)
         {
-            login l = new login();
-            l.Show();
-            
+          
+           
+        }
+
+        private void register_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'railwayDBDataSet.Users' table. You can move, or remove it, as needed.
+            this.usersTableAdapter.Fill(this.railwayDBDataSet.Users);
 
         }
 
-       
+        private void register_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            login lg = new login();
+            lg.Show();
+        }
 
-        
+        private void gendercmb_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
